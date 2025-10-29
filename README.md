@@ -131,13 +131,20 @@ cd TireThreadPred
 ```
 
 2. **Install dependencies**
-```bash
-pip install tensorflow numpy matplotlib pillow scikit-learn seaborn tqdm
-```
 
-Or use a requirements file:
+Using pip with requirements.txt (recommended):
 ```bash
 pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip install tensorflow>=2.13.0 numpy matplotlib pillow scikit-learn seaborn tqdm
+```
+
+For Jupyter notebook support:
+```bash
+pip install jupyter notebook ipykernel
 ```
 
 3. **Verify TensorFlow installation**
@@ -359,8 +366,8 @@ INTERPRETATION
 TireThreadPred/
 │
 ├── README.md                      # Project documentation (this file)
-├── predict_tire.py                # Prediction script for inference
 ├── requirements.txt               # Python dependencies
+├── predict_tire.py                # Prediction script for inference
 │
 ├── tire_model_final/              # Trained model (SavedModel format)
 │   ├── saved_model.pb

@@ -65,7 +65,7 @@ class Config:
     IMG_SIZE = 224
     CLASS_NAMES = ['defective', 'good']
     MODEL_PATH = 'tire_model_final'  # Folder extracted from zip
-    IMAGE_PATH = 'imagegood.png'  # Your test image
+    IMAGE_PATH = 'imagebad.png'  # Your test image
 
 
 # ==================== LOAD MODEL ====================
