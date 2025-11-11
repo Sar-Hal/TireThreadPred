@@ -333,7 +333,7 @@ def visualize_prediction(image, predicted_class, confidence,
     plt.tight_layout()
     
     # Save result
-    output_filename = 'prediction_result.png'
+    output_filename = 'prediction_result_bad.png'
     plt.savefig(output_filename, dpi=200, bbox_inches='tight')
     print(f"📊 Visualization saved as: {output_filename}")
     
